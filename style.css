@@ -1,0 +1,124 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+}
+.top-header, .our-mission-container, .develop-area,.community-area
+,.product-area{
+    display: flex;
+}
+.top-header-text{
+    margin:8%;
+}
+a{
+    background-color: #ff5959;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.top-header-text-head{
+    border-left: 5px solid #ff5959;
+    border-image-slice:1;
+    padding-left: 20px;
+    
+}
+.orange-text{
+    color:#ffad5a;
+}
+.top-header-image img{
+    width: 80%;
+}
+.our-mission h1{
+    text-align: center;
+}
+.our-mission-portion{
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 25px;
+}
+.our-mission-portion-mission{
+    background-color: #dff0f2;
+}
+.our-mission-portion-vission{
+    background-color: #f5d0d0;
+}
+.our-mission-portion-goals{
+    background-color: #f7df9f;
+    margin-right: 5%;
+}
+.our-mission-container img{
+    width: 50%;
+}
+.develop-area{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
+    background-image:url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 250px;
+}
+.develop-area-text{
+  margin-left: 5%;
+}
+.develop-area img{
+    width: 82%;
+    padding-left: 100px;
+}
+.community-area{
+    margin-top: 100px;
+    margin-right: 5%;
+    background-image:url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:98% 100%;
+    background-size: 250px;
+}
+.community-area img{
+    width: 75%;
+}
+.community-area-text{
+    margin: 0px 100px 100px 70px;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 40px 40px 0;
+    display: inline-block;
+    padding: 25px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+}
+.product-area-portion{
+    width: 25%;
+    margin: 5%;
+}
+.product-area-portion-our-product{
+    background-color: aqua;
+    text-align: center;
+    padding: 10%;
+}
+.product-area-portion-arrow{
+    width: 10%;
+    height: 200px;
+    margin:180px 0px 0px 0px;
+}
+.product-area-portion-list{
+    margin:100px 0px 0px 0px;
+}
+.product-area-portion-list ul{
+    list-style: none;
+}
+.product-area-portion-list ul li{
+    padding: 10px 10px;
+    margin: 10px;
+    background-color: aqua;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: aqua;
+}
